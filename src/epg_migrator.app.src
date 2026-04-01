@@ -1,6 +1,6 @@
 {application, epg_migrator, [
-    {description, "An OTP application"},
-    {vsn, "0.1.0"},
+    {description, "PostgreSQL database migration library"},
+    {vsn, "0.0.2"},
     {registered, []},
     {mod, {epg_migrator_app, []}},
     {applications, [
@@ -12,5 +12,7 @@
     {env, []},
     {modules, []},
     {licenses, ["MIT"]},
-    {links, []}
+    {links, [
+        {"Github", "https://github.com/ttt161/epg_migrator"}
+    ]}
  ]}.

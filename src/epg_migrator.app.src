@@ -1,6 +1,6 @@
 {application, epg_migrator, [
     {description, "PostgreSQL database migration library"},
-    {vsn, "0.0.2"},
+    {vsn, "1.0.0"},
     {registered, []},
     {mod, {epg_migrator_app, []}},
     {applications, [

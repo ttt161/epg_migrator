@@ -16,7 +16,7 @@ services:
     command: /sbin/init
 
   postgres:
-    image: postgres:15-bookworm
+    image: postgres:18-trixie
     command: >
       -c 'wal_level=logical'
       -c 'shared_preload_libraries=pg_stat_statements'
